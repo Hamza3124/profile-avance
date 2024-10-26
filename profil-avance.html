@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>profil</title>
+    <h1>Hamza Essamoudi</h1>
+    <section>
+        <h2>A propos de moi</h2>
+        <img src="C:\Users\hamza\Downloads\WhatsApp Image 2024-10-23 à 09.37.43_3478a25a.jpg" width="100" height="100"> 
+        <p>Hamza Essamoudi, 20 ans, étudiant à l'EMSI.</p> 
+    </section>
+    <section>
+        <H2>Hobbies et Objectifs</H2>
+        <UL>
+            <li><b>Hobbies:</b></li>  
+            <li> la lecture</li>
+            <li> les jeux video</li>
+            <li> la culture cinématographique </li>
+        </UL>
+        <ol>
+            <li><b>Objectifs:</b></li>
+            <li>réussir mon année</li>
+        </ol>
+    </section>
+    <section>
+        <H2>Tableau d'Amis</H2>
+        <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+              background-color: #dddddd;
+            }
+            </style>
+        <table>
+            
+            <tr>
+                <th>NOM</th>
+                <th>Age</th>
+                <th>Ville</th>
+                <th>Lien</th>
+            </tr>
+            <tr>
+                <td>Aymane</td>
+                <td>20</td>
+                <td>Casablanca</td>
+                <td>www.aymane.com</td>
+            </tr>
+            <tr>
+                <td>nouemane</td>
+                <td>20</td>
+                <td>Casablanca</td>
+                <td>www.nouemane.com</td>
+            </tr>
+            <tr>
+                <td>aimane</td>
+                <td>16</td>
+                <td>casablanca</td>
+                <td>www.aimane.com</td>
+            </tr>
+            
+        </table>
+    </section>
+    <h2>Formulaire de Contact</h2>
+    <form id="contactForm">
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="button" onclick="validateForm()">Envoyer</button>
+    </form>
+<script src="javahs.js"></script>
+<link rel="stylesheet" href="css profile.css">
+</head>
+</html>
